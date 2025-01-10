@@ -2,6 +2,7 @@ let num1 = 0
 let finalNum = ''
 let userInput = ''
 let userOperator = " "
+let radians = degrees * Math.PI/180;
 
 //declares display so it can display on display
 let display = document.getElementById('display') 
@@ -53,6 +54,27 @@ function divide(num1, num2)
 }
 
 
+/******************* square root function  **********************/
+// □
+function squareRoot(num1, num2)
+{
+    return Math.sqrt()
+}
+
+/******************* sin function  **********************/
+function sin(num1,num2)
+{
+    return Math.sin(num1/num2)
+}
+
+
+/******************* gt functon  ***********************/
+// distraction
+function gt
+{
+
+}
+
 /********************** calculate function  *********************/
 
 //process which operation it should do and calls the corresponding function
@@ -88,7 +110,7 @@ function cl()
     display.innerHTML = 0;
     userInput = ''
     num1 = 0;
-    num2 =0 
+    num2 = 0 
 }
 
 
