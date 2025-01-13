@@ -4,6 +4,8 @@ let userInput = ''
 let userOperator = " "
 let radians = degrees * Math.PI/180;
 
+
+
 //declares display so it can display on display
 let display = document.getElementById('display') 
 
@@ -62,6 +64,7 @@ function squareRoot(num1, num2)
 }
 
 /******************* sin function  **********************/
+// HOW DOES SINE WORK ?!? ive done my honors geometry
 function sin(num1,num2)
 {
     return Math.sin(num1/num2)
@@ -70,11 +73,18 @@ function sin(num1,num2)
 
 /******************* gt functon  ***********************/
 // distraction
-function gt
+function gt ()
 {
 
 }
 
+
+/*****************off function******************************* */
+// it clsoes the curremt chrome tab
+function off ()
+{
+    close();
+}
 /********************** calculate function  *********************/
 
 //process which operation it should do and calls the corresponding function
