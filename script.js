@@ -78,6 +78,14 @@ function exponent (num1, num2)
 }
 
 
+/************************ percent button **************/
+// percents
+function percent (num1,num2, cent)
+{
+    let cent = num2;
+
+    return (num1/cent) * 100
+}
 
 /*****************off function******************************* */
 // it clsoes the curremt chrome tab
@@ -109,6 +117,7 @@ function calculate()
         case '/':
        display.innerHTML = divide(num1,num2)
         break;
+
         default:
             display.innerHTML = "ERROR"
     }
