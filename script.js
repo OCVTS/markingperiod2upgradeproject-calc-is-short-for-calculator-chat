@@ -58,9 +58,9 @@ function divide(num1, num2)
 
 /******************* square root function  **********************/
 // □
-function squareRoot(num1, num2)
+function squareRoot(num1)
 {
-    return Math.sqrt()
+    return Math.sqrt(num1)
 }
 
 /******************* sin function  **********************/
@@ -70,13 +70,13 @@ function sin(num1,num2)
     return Math.sin(num1/num2)
 }
 
-
-/******************* gt functon  ***********************/
-// distraction
-function gt ()
+/******************** exponent function****************/
+//it for exponents
+function exponent (num1, num2)
 {
-
+    return num1^num2;
 }
+
 
 
 /*****************off function******************************* */
@@ -124,3 +124,14 @@ function cl()
 }
 
 
+
+
+
+
+
+
+//5 buttons dont have a purpose because i didnt know what to do with them
+function inquire()
+{
+    alert("yeah uhm this button is just for decoration")
+}

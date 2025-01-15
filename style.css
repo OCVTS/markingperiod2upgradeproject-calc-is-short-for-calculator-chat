@@ -3,14 +3,14 @@ div
 {
     padding: 10px;
     color: #373535;
-    margin: 0;
+    margin-left: 15vw;
     padding:0;
     font-size: 12vh;
     max-width: 33%;
     overflow: hidden;
     margin-left: 2.9vw;
     margin-top: 6.7vh ;
-    z-index: 999999;
+    z-index: 9;
     border-radius: 12px
 }
 
