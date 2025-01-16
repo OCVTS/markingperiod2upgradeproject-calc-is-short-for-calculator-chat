@@ -63,11 +63,23 @@ function squareRoot(num1)
     return Math.sqrt(num1)
 }
 
-/******************* sin function  **********************/
+/******************* triangle geometry functions  **********************/
 // HOW DOES SINE WORK ?!? ive done my honors geometry
 function sin(num1,num2)
 {
     return Math.sin(num1/num2)
+}
+
+//cosine the other method
+function cos(num1,num2)
+{
+    return Math.cos(num1/num2)
+}
+
+
+function tan(num1,num2)
+{
+    return Math.tan(num1/num2)
 }
 
 /******************** exponent function****************/
@@ -117,6 +129,26 @@ function calculate()
         case '/':
        display.innerHTML = divide(num1,num2)
         break;
+
+        case '^':
+        display.innerHTML = exponent(num1,num2)
+        break;
+
+        case '□':
+        display.innerHTML = squareRoot(num1)
+        break;
+
+        case 'sin':
+        display.innerHTML = sin(num1,num2)
+        break;
+
+        case 'cos':
+        display.innerHTML = cos(num1,num2)
+        break;
+
+        case 'tan':
+        display.innerHTML = tan(num1,num2)
+        break;   
 
         default:
             display.innerHTML = "ERROR"

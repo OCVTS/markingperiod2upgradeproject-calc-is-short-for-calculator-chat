@@ -14,7 +14,7 @@
 
 <!--map with coordinates defining whihc areas are clickable and having functions connected to them-->
 <map name="calcMap">
-    <area target="" alt="muke" title="" href="" coords="290,603,16" shape="circle" onclick="off()">
+    <area target="" alt="powerButton" title="" href="" coords="290,603,16" shape="circle" onclick="off()">
     <area target="" alt="clear" title="clear" href="" coords="260,521,315,573" shape="rect" onclick="cl()">
     <area target="" alt="one" title="one" href="" coords="343,522,397,573" shape="rect" onclick="addToNum('1')" >
     <area target="" alt="two" title="two" href="" coords="413,524,469,573" shape="rect" onclick="addToNum('2')">
@@ -27,19 +27,19 @@
     <area target="" alt="nine" title="nine" href="" coords="482,384,539,435" shape="rect" onclick="addToNum('9')" >
     <area target="" alt="zero" title="zero" href="" coords="336,587,397,641" shape="rect" onclick="addToNum('0')">
     <area target="" alt="zeroZero" title="zeroZero" href="" coords="412,590,466,642" shape="rect" onclick="addToNum('00')">
-    <area target="" alt="decimal" title="decimal" href="" coords="482,590,538,645" shape="rect">
+    <area target="" alt="decimal" title="decimal" href="" coords="482,590,538,645" shape="rect" onclick="addToNum('.')">
     <area target="" alt="addition" title="addition" href="" coords="558,522,621,641" shape="rect" onclick="operator('+')" >
     <area target="" alt="multiplication" title="multiplication" href="" coords="565,450,616,505" shape="rect" onclick="operator('*')" >
     <area target="" alt="division" title="division" href="" coords="632,453,689,503" shape="rect" onclick="operator('/')">
     <area target="" alt="subtraction" title="subtraction" href="" coords="633,521,689,574" shape="rect" onclick="operator('-')">
-    <area target="" alt="exponents" title="exponents" href="" coords="265,331,320,365" shape="rect" onclick="exponent()">
-    <area target="" alt="squareRoot" title="squareRoot" href="" coords="264,383,318,437" shape="rect" onclick="squareRoot()">
+    <area target="" alt="exponents" title="exponents" href="" coords="265,331,320,365" shape="rect" onclick="operator('^')">
+    <area target="" alt="squareRoot" title="squareRoot" href="" coords="264,383,318,437" shape="rect" onclick="operator('□')">
     <area target="" alt="percent" title="percent" href="" coords="565,386,617,434" shape="rect">
     <area target="" alt="equals" title="equals" href="" coords="634,588,690,642" shape="rect" onclick="calculate()">
     <area target="" alt="pi" title="pi" href="" coords="344,290,398,323" shape="rect">
-    <area target="" alt="sine" title="sine" href="" coords="485,333,538,364" shape="rect" onclick="sin()">
-    <area target="" alt="cosine" title="cosine" href="" coords="343,336,397,366" shape="rect">
-    <area target="" alt="tangent" title="tangent" href="" coords="409,337,467,365" shape="rect">
+    <area target="" alt="sine" title="sine" href="" coords="485,333,538,364" shape="rect" onclick="operator('sin')">
+    <area target="" alt="cosine" title="cosine" href="" coords="343,336,397,366" shape="rect" onclick="operator('cos')">
+    <area target="" alt="tangent" title="tangent" href="" coords="409,337,467,365" shape="rect" onclick="operator('tan')">
     <area target="" alt="openParentheses" title="openParentheses" href="" coords="413,289,470,288,467,321,450,323,435,324,416,321" shape="poly">
     <area target="" alt="closeParentheses" title="closeParentheses" href="" coords="481,288,496,282,516,281,535,287,534,316,518,320,517,330,498,330,496,321,483,316" shape="poly">
     <area target="" alt="history" title="history" href="" coords="635,388,687,436" shape="rect">
