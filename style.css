@@ -1,22 +1,22 @@
-/* styling so the display div can look like the calculator image's display area */
-div
+main
 {
-    padding: 10px;
+    display:flex
+}
+
+
+
+
+/* styling so the display div can look like the calculator image's display area */
+#display
+{
+    display:grid;
     color: #889C9A;
-    margin-left: 15vw;
-    padding:0;
-    font-size: 12vh;
-    max-width: 33%;
     overflow: hidden;
-    margin-left: 2.9vw;
-    margin-top: 6.7vh ;
-    z-index: 9;
-    border-radius: 12px
 }
 
 /* forces the image to be stuck in place and behind the div*/
 img {
-    position: absolute;
+    position: sticky;
     left: 0px;
     top: 0px;
     z-index: -1;
