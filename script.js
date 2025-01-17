@@ -64,26 +64,26 @@ function squareRoot(num1)
 }
 
 /******************* triangle geometry functions  **********************/
-// HOW DOES SINE WORK ?!? ive done my honors geometry
-function sin(num1,num2)
+// NOO! THAT DOES NOT SAY SIN!
+function sin(num1,radians)
 {
-    return Math.sin(num1/num2)
+    return Math.sin(num1/radians)
 }
 
 //cosine the other method
-function cos(num1,num2)
+function cos(num1,radians)
 {
-    return Math.cos(num1/num2)
+    return Math.cos(num1/radians)
 }
 
-
-function tan(num1,num2)
+//
+function tan(num1,radians)
 {
-    return Math.tan(num1/num2)
+    return Math.tan(num1/radians)
 }
 
 /******************** exponent function****************/
-//it for exponents
+//it's for exponents
 function exponent (num1, num2)
 {
     return num1^num2;
@@ -98,6 +98,9 @@ function percent (num1,num2, cent)
 
     return (num1/cent) * 100
 }
+
+
+
 
 /*****************off function******************************* */
 // it clsoes the curremt chrome tab
@@ -158,7 +161,7 @@ function calculate()
 //resets the equation to have an empty operator and both numbers be 0
 function cl()
 {
-    display.innerHTML = 0;
+    display.innerHTML = '';
     userInput = ''
     num1 = 0;
     num2 = 0 
