@@ -2,8 +2,9 @@ let num1 = 0
 let finalNum = ''
 let userInput = ''
 let userOperator = " "
-let radians = degrees * Math.PI/180;
-
+//let radians = degrees * Math.PI/180;
+let calcingHistory = ''
+let calcedHistory = ''
 
 
 //declares display so it can display on display
@@ -96,7 +97,7 @@ function percent (num1,num2, cent)
 {
     let cent = num2;
 
-    return (num1/cent) * 100
+    return (num1/cent) * 100; 
 }
 
 
