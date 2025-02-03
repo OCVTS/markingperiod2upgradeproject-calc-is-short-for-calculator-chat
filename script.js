@@ -187,7 +187,7 @@ function cl()
 
 
 
-//5 buttons dont have a purpose because i didnt know what to do with them, thye have become 
+//4 buttons dont have a purpose because i didnt know what to do with them, thye have become 
 function inquire1()
 {
     alert("clear the display after every calculation")
