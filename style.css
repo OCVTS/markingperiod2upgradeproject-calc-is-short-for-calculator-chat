@@ -1,23 +1,55 @@
-main
+html
 {
-    display:flex
+    background-color: rgb(235, 217, 181);
 }
 
 
 
-
-/* styling so the display div can look like the calculator image's display area */
-#display
+main button
 {
-    display:grid;
-    color: #889C9A;
+    font-size:xx-large;
+} 
+
+#nonFunctional #nonPhunctional :hover
+{
+    cursor:not-allowed;
+    filter: brightness(0%) grayscale(100%)
+}
+ 
+a
+{
+    color: black;
+}
+ 
+ 
+ #display
+ {
     overflow: hidden;
+    padding: 15%;
+    font-size:xx-large
+ }
+ 
+ #pluh
+ {
+    height: 5vh
+ }
+ 
+ 
+ td 
+{
+    border: solid rgb(0, 0, 0) 2px;
+    gap: 10px;
+    max-width: 13vw;
 }
 
-/* forces the image to be stuck in place and behind the div*/
-img {
-    position: sticky;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
+button
+{
+    width: 100%;
+    height: 100%;
+    background-color: cornsilk;
+}
+
+#nonFunctional, #nonPhunctional
+{
+    cursor: not-allowed;
+}

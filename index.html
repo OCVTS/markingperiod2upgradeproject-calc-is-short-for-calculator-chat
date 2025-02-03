@@ -1,57 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charste="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale-1" >
-        <title> calculator is long for calc</title>
-        <link href="style.css" rel="stylesheet"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="author" content="Aaron Martinez Bastidas">
+        <title>calculator but bigger</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
-    <main>
-
-        <img src="stitchCalc.jpg" usemap="#calcMap">
-
-        <!--map with coordinates defining whihc areas are clickable and having functions connected to them-->
-        <map name="calcMap">
-            <area  alt="powerButton" title="off"  coords="290,603,16" shape="circle" onclick="off()">
-            <area  alt="clear" title="clear"  coords="260,521,315,573" shape="rect" onclick="cl()">
-            <area  alt="one" title="one"  coords="343,522,397,573" shape="rect" onclick="addToNum('1')" >
-            <area  alt="two" title="two"  coords="413,524,469,573" shape="rect" onclick="addToNum('2')">
-            <area  alt="three" title="three"  coords="482,522,538,573" shape="rect" onclick="addToNum('3')">
-            <area  alt="four" title="four"  coords="343,453,396,504" shape="rect" onclick="addToNum('4')" >
-            <area  alt="five" title="five"  coords="414,450,466,503" shape="rect" onclick="addToNum('5')" >
-            <area  alt="six" title="six"  coords="484,453,538,505" shape="rect" onclick="addToNum('6')">
-            <area  alt="seven" title="seven"  coords="342,384,396,435" shape="rect" onclick="addToNum('7')">
-            <area  alt="eight" title="eight"  coords="412,384,468,436" shape="rect" onclick="addToNum('8')">
-            <area  alt="nine" title="nine"  coords="482,384,539,435" shape="rect" onclick="addToNum('9')" >
-            <area  alt="zero" title="zero"  coords="336,587,397,641" shape="rect" onclick="addToNum('0')">
-            <area  alt="zeroZero" title="zeroZero"  coords="412,590,466,642" shape="rect" onclick="addToNum('00')">
-            <area  alt="decimal" title="decimal"  coords="482,590,538,645" shape="rect" onclick="addToNum('.')">
-            <area  alt="addition" title="addition"  coords="558,522,621,641" shape="rect" onclick="operator('+')" >
-            <area  alt="multiplication" title="multiplication"  coords="565,450,616,505" shape="rect" onclick="operator('*')" >
-            <area  alt="division" title="division"  coords="632,453,689,503" shape="rect" onclick="operator('/')">
-            <area  alt="subtraction" title="subtraction"  coords="633,521,689,574" shape="rect" onclick="operator('-')">
-            <area  alt="exponents" title="exponents"  coords="265,331,320,365" shape="rect" onclick="operator('^')">
-            <area  alt="squareRoot" title="squareRoot"  coords="264,383,318,437" shape="rect" onclick="operator('□')">
-            <area  alt="percent" title="percent"  coords="565,386,617,434" shape="rect">
-            <area  alt="equals" title="equals"  coords="634,588,690,642" shape="rect" onclick="calculate()">
-            <area  alt="pi" title="pi"  coords="344,290,398,323" shape="rect">
-            <area  alt="sine" title="sine"  coords="485,333,538,364" shape="rect" onclick="operator('sin')">
-            <area  alt="cosine" title="cosine"  coords="343,336,397,366" shape="rect" onclick="operator('cos')">
-            <area  alt="tangent" title="tangent"  coords="409,337,467,365" shape="rect" onclick="operator('tan')">
-            <area  alt="openParentheses" title="openParentheses"  coords="413,289,470,288,467,321,450,323,435,324,416,321" shape="poly">
-            <area  alt="closeParentheses" title="closeParentheses"  coords="481,288,496,282,516,281,535,287,534,316,518,320,517,330,498,330,496,321,483,316" shape="poly">
-            <area  alt="history" title="calcingHistory"  coords="635,388,687,436" shape="rect">
-            <area  alt="pop1" title="pop1"  coords="266,287,322,325" shape="rect" onclick="inquire()">
-            <area  alt="pop2" title="pop2"  coords="558,291,621,325" shape="rect" onclick="inquire()">
-            <area  alt="pop3" title="pop3"  coords="629,285,690,325" shape="rect" onclick="inquire()">
-            <area  alt="pop4" title="pop4"  coords="560,337,619,367" shape="rect" onclick="inquire()">
-            <area  alt="history2" title="calculatedHistory"  coords="266,446,321,502" shape="rect"> 
-            <area  alt="pop4-2" title="pop4-2"  coords="632,335,689,367" shape="rect" onclick="inquire()">
-        </map>
-        <div id="display">
-            <!--the display box-->
-        </div>
-    
-    </main>
-    <script src="script.js"></script>
+    <body>
+        <header></header>
+        <main>
+            
+            <pre>                This is an upgraded calculator, one with somewhat more complicated buttons. 
+                The main issues with this was the history array, the most complicated part of this new calculator.
+                (massive blurb talking about how i eventually make the awesome history buttons)
+                It was a shame that I had to abandon the image map, but it was because there was a halt in any part of it functioning. 
+                It also took a while for me to understand or get things working reason for being my own faults in letting myself get distracted.
+                Even after all that, here's a slightly better calculator
+            </pre>
+            <h1><a href="calcingCalc.html">the new calculator</a></h1>
+        </main>
+        <footer></footer>
+    </body>
 </html>

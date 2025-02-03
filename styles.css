@@ -1,0 +1,17 @@
+html
+{
+    background-color:blanchedalmond;
+}
+
+a
+{
+    color: black;
+    margin-left: 13vw ;
+    text-shadow: antiquewhite 1px 1px;
+}
+
+pre
+{
+    text-shadow: lemonchiffon 2px 2px;
+    font-size: x-large;
+}

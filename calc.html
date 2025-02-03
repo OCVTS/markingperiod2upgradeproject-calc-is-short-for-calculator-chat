@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charste="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1" >
+        <title> calculator is long for calc</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <main>
+
+
+<table>
+    <tr>
+    <td  id="display" colspan="4"></td>
+    <td id="data" colspan="2"></td>
+    </tr> 
+
+    <tr>
+        <td ><button onclick="inquire1()">alert</button></td>
+        <td  id="pi"><button onclick="addToNum('π')" onclick="addingToHistory()">π</button></td>
+        <td ><button onclick="inquire2()"> alert</button></td>
+        <td ><button onclick="inquire3()">alert</button> </td>
+        <td id="clock" colspan="2"> </td>
+    </tr>
+
+    <tr>
+        <td ><button onclick="operator('^')" onclick="addingToHistory()">^</button></td>
+        <td ><button onclick="operator('cos')" onclick="addingToHistory()">cosine</button></td>
+        <td ><button onclick="operator('tan')" onclick="addingToHistory()">tangent</button></td>
+        <td ><button onclick="operator('sin')" onclick="addingToHistory()">sine</button></td>
+        <td ><button onclick="inquire4()">alert</button></td>
+        <td ><button><a href=index.html>back</a></button></td>
+    </tr>
+
+    <tr>
+        <td ><button onclick="operator('√')" onclick="addingToHistory()">√</button></td>
+        <td ><button onclick="addToNum('7')" onclick="addingToHistory()">7</button></td>
+        <td ><button onclick="addToNum('8')" onclick="addingToHistory()">8</button></td>
+        <td ><button onclick="addToNum('9')" onclick="addingToHistory()">9</button></td>
+        <td ><button onclick="operator('%')" onclick="addingToHistory()">%</button></td>
+        <td ><button id="nonFunctional" onclick="showingHistory()"> history1</button></td>
+    </tr>
+
+    <tr>
+        <td ><button id="nonPhunctional" onclick="showHistory()">history2</button></td>
+        <td ><button onclick="addToNum('4')" onclick="addingToHistory()">4</button></td>
+        <td ><button onclick="addToNum('5')" onclick="addingToHistory()">5</button></td>
+        <td ><button onclick="addToNum('6')" onclick="addingToHistory()">6</button></td>
+        <td ><button onclick="operator('*')" onclick="addingToHistory()">*</button></td>
+        <td ><button onclick="operator('/')" onclick="addingToHistory()">/</button></td>
+    </tr>
+
+    <tr>
+        <td ><button onclick="cl()">AC</button></td>
+        <td ><button onclick="addToNum('1')" onclick="addingToHistory()">1</button></td>
+        <td ><button onclick="addToNum('2')" onclick="addingToHistory()">2</button></td>
+        <td ><button onclick="addToNum('3')" onclick="addingToHistory()">3</button></td>
+        <td id="pluh" rowspan="2"><button onclick="operator('+')" onclick="addingToHistory()">+</button></td>
+        <td ><button onclick="operator('-')" onclick="addingToHistory()">-</button></td>
+    </tr>
+
+    <tr>
+        <td ><button onclick="off()">☢️</button></td>
+        <td ><button onclick="addToNum('0')" onclick="addingToHistory()">0</button></td>
+        <td ><button onclick="addToNum('00')" onclick="addingToHistory()">00</button></td>
+        <td ><button onclick="addToNum('.')" onclick="addingToHistory()">.</button></td>
+        <td ><button onclick="calculate()" onclick="addToHistory()">=</button></td>
+    </tr>
+</table>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="clock.js"></script>
+    <script src="calcHistory.js"></script>
+</html>
