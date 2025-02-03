@@ -200,4 +200,5 @@ function inquire3(){
 }
     function inquire4(){
     alert('the history buttons are for the history of the mathmatical expression you are making or for the result')
+    alert('they dont work either')
 }
